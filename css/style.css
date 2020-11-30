@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.col-md-6 h2 {
+  font-family: playfair display;
+  font-size: 30px;
+}
+
+.col-md-6 p {
+  font-family: roboto;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+h4 {
+  font-family: playfair display;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  font-weight: bold;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  color: white;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: gray;
+}
+
+footer {
+  background-color: #003333;
+  color: white;
+}
+
+/* form */
+
+#form {
+  padding-top: 10px;
+  position: relative;
+  border: 1px solid #663333;
+}
+
+#form textarea {
+  width: 100%;
+  height: 211px;
+  background: #fbfbfb;
+  position: relative;
+  resize: none;
+  overflow: hidden;
+  box-sizing: border-box;
+  float: right;
+  margin: 0;
+  color: yellow;
+  font: 14px/20px "Roboto", sans-serif;
+  border: 1px solid yellow;
+  padding: 23px 27px 5px;
+}
+
+/* form */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: 2px solid #686888;
+}
+/* form */
+
+input[type="submit"] {
+  background-color: #663333;
+  color: white;
+  padding: 12px 20px;
+  border: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #686888;
+}
+
+.container-form {
+  margin: 0 auto;
+  border-radius: 5px;
+  display: line-block;
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+
+.container-form h3 {
+  text-align: left;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: playfair display;
+}
+
+.container form {
+  padding: 20px;
+  border: 2px solid #686888;
+}
+
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
